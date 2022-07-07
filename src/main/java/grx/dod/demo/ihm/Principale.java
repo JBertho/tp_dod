@@ -14,8 +14,8 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
 import grx.dod.demo.ihm.TP.Objects;
-import grx.dod.demo.tp.types.objects.Espace;
-import grx.dod.demo.tp.types.objects.Forme;
+import grx.dod.demo.tp.types.objects.model.Espace;
+import grx.dod.demo.tp.types.objects.model.Forme;
 
 public class Principale extends JFrame {
 

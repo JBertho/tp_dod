@@ -1,6 +1,6 @@
 package grx.dod.demo.tp.types;
 
-import grx.dod.demo.tp.types.objects.Forme;
+import grx.dod.demo.tp.types.objects.model.Forme;
 
 import java.util.List;
 

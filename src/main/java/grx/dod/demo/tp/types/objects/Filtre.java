@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import grx.dod.demo.tp.Type;
+import grx.dod.demo.tp.types.objects.model.Forme;
 
 public class Filtre implements Pipeline<Forme> {
 

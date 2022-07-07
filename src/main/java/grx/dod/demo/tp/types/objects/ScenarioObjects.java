@@ -1,15 +1,13 @@
-package grx.dod.demo.tp.types.generiques;
+package grx.dod.demo.tp.types.objects;
 
 import grx.dod.demo.tp.types.TypeScenario;
 import grx.dod.demo.tp.types.objects.model.Forme;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class ScenarioGenerique implements TypeScenario<FormeGenerique> {
+public class ScenarioObjects implements TypeScenario<Forme> {
 
-    List<FormeGenerique> generiques;
-    private final ConverterFormeToGeneric converter = new ConverterFormeToGeneric();
+    List<Forme> objects;
 
     @Override
     public long space() {
@@ -28,6 +26,6 @@ public class ScenarioGenerique implements TypeScenario<FormeGenerique> {
 
     @Override
     public void loadFormes(List<Forme> formes) {
-        this.generiques = formes.stream().map(converter::apply).collect(Collectors.toList());
+        this.objects = formes;
     }
 }

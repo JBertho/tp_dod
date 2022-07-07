@@ -10,6 +10,11 @@ import java.util.concurrent.Future;
 import javax.swing.JFrame;
 
 import grx.dod.demo.tp.Type;
+import grx.dod.demo.tp.types.objects.action.*;
+import grx.dod.demo.tp.types.objects.model.Cercle;
+import grx.dod.demo.tp.types.objects.model.Espace;
+import grx.dod.demo.tp.types.objects.model.Forme;
+import grx.dod.demo.tp.types.objects.model.Rectangle;
 
 public class TP {
 

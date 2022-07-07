@@ -14,8 +14,8 @@ import grx.dod.demo.ihm.Dialogs.AjoutRectangle;
 import grx.dod.demo.tp.Couleur;
 import grx.dod.demo.tp.ProcessingMode;
 import grx.dod.demo.tp.StructureMode;
-import grx.dod.demo.tp.types.objects.Cercle;
-import grx.dod.demo.tp.types.objects.Rectangle;
+import grx.dod.demo.tp.types.objects.model.Cercle;
+import grx.dod.demo.tp.types.objects.model.Rectangle;
 
 public class ControlePanel extends JPanel {
 

@@ -2,10 +2,10 @@ package grx.dod.demo.tp;
 
 import java.util.NoSuchElementException;
 
-import grx.dod.demo.tp.types.objects.Cercle;
-import grx.dod.demo.tp.types.objects.Espace;
-import grx.dod.demo.tp.types.objects.Forme;
-import grx.dod.demo.tp.types.objects.Rectangle;
+import grx.dod.demo.tp.types.objects.model.Cercle;
+import grx.dod.demo.tp.types.objects.model.Espace;
+import grx.dod.demo.tp.types.objects.model.Forme;
+import grx.dod.demo.tp.types.objects.model.Rectangle;
 
 public enum Type {
 

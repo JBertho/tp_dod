@@ -13,6 +13,10 @@ import java.util.List;
 import javax.swing.JPanel;
 
 import grx.dod.demo.tp.Couleur;
+import grx.dod.demo.tp.types.objects.model.Cercle;
+import grx.dod.demo.tp.types.objects.model.Espace;
+import grx.dod.demo.tp.types.objects.model.Forme;
+import grx.dod.demo.tp.types.objects.model.Rectangle;
 
 public class Draw extends JPanel {
 

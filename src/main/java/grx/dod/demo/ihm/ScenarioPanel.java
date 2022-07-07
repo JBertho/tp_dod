@@ -13,8 +13,8 @@ import grx.dod.demo.tp.Couleur;
 import grx.dod.demo.tp.Scenario;
 import grx.dod.demo.tp.types.generiques.FormeGenerique;
 import grx.dod.demo.tp.types.objects.Draw;
-import grx.dod.demo.tp.types.objects.Espace;
-import grx.dod.demo.tp.types.objects.Forme;
+import grx.dod.demo.tp.types.objects.model.Espace;
+import grx.dod.demo.tp.types.objects.model.Forme;
 import grx.dod.demo.tp.types.simples.FormeSimple;
 
 public class ScenarioPanel extends JPanel {

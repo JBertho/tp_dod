@@ -1,10 +1,10 @@
 package grx.dod.demo.tp.types.generiques;
 
 import grx.dod.demo.tp.Type;
-import grx.dod.demo.tp.types.objects.Cercle;
-import grx.dod.demo.tp.types.objects.Espace;
-import grx.dod.demo.tp.types.objects.Forme;
-import grx.dod.demo.tp.types.objects.Rectangle;
+import grx.dod.demo.tp.types.objects.model.Cercle;
+import grx.dod.demo.tp.types.objects.model.Espace;
+import grx.dod.demo.tp.types.objects.model.Forme;
+import grx.dod.demo.tp.types.objects.model.Rectangle;
 
 import java.util.HashMap;
 import java.util.Map;
